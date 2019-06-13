@@ -37,6 +37,9 @@
 #include "saiqueue.h"
 #include "saischeduler.h"
 #include "saischedulergroup.h"
+#include "saiipmcgroupextensions.h"
+#include "sairpfgroupextensions.h"
+#include "saiipmcextensions.h"
 
 #include "nas_ndi_mac.h"
 
@@ -83,6 +86,10 @@ typedef struct _ndi_sai_api_tbl_t
     sai_l2mc_group_api_t        *n_sai_l2mc_grp_api_tbl;
     sai_l2mc_api_t              *n_sai_mcast_api_tbl;
     sai_bridge_api_t            *n_sai_bridge_api_tbl;
+    sai_ipmc_group_api_t        *n_sai_ipmc_grp_api_tbl;
+    sai_rpf_group_api_t         *n_sai_rpf_grp_api_tbl;
+    sai_ipmc_api_t              *n_sai_ipmc_api_tbl;
+    sai_ipmc_repl_group_api_t   *n_sai_ipmc_repl_grp_api_tbl;
  } ndi_sai_api_tbl_t;
 
 typedef struct _ndi_switch_notification_t_

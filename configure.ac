@@ -18,7 +18,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([opx-nas-ndi], [4.8.0+opx2], [ops-dev@lists.openswitch.net])
+AC_INIT([opx-nas-ndi], [5.4.0], [ops-dev@lists.openswitch.net])
 AM_INIT_AUTOMAKE([foreign subdir-objects])
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])

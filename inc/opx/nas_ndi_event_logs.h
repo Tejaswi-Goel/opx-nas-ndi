@@ -86,6 +86,9 @@
 #define NDI_ACL_LOG_INFO(msg, ...) \
                    NDI_LOG_INFO("NDI-ACL", msg, ##__VA_ARGS__)
 
+#define NDI_VLAN_LOG_INFO(msg, ...) \
+                   NDI_LOG_INFO("NDI-VLAN", msg, ##__VA_ARGS__)
+
 #define NDI_ACL_LOG_DETAIL(msg, ...) \
                    NDI_LOG_INFO("NDI-ACL", msg, ##__VA_ARGS__)
 
